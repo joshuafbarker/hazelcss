@@ -9,7 +9,7 @@
     "ui"
   ],
   "scripts": {
-    "dev": ""
+    "dev": "sass ./dev/style.scss ./dev/style.css --watch"
   },
   "repository": {
     "type": "git",
