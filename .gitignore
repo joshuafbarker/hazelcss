@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency/Development directories
+node_modules/
+dev/
+
+# Output
+dist
+
+# Misc
+.DS_Store*
