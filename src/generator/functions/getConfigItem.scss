@@ -1,0 +1,13 @@
+@use '../config';
+@use 'sass:map';
+
+// A function to retrieve an item from the config map.
+@function getConfig($item) {
+  $config: map.get(config.$config, $item);
+
+  @if ($config) {
+    @return $config;
+  } @else {
+    @return false;
+  }
+}
