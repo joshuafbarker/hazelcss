@@ -2,10 +2,25 @@
   "name": "hazelcss",
   "version": "0.0.0",
   "description": "A CSS toolkit.",
-  "main": "index.js",
+  "keywords": [
+    "scss",
+    "utility",
+    "css",
+    "ui"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "sass ./dev/style.scss ./dev/style.css --watch"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuafbarker/hazelcss.git"
+  },
+  "author": "Joshua Barker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuafbarker/hazelcss/issues"
+  },
+  "dependencies": {
+    "sass": "^1.30.0"
+  }
 }
