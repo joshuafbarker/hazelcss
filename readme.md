@@ -1,3 +1,3 @@
 # HazelCSS
 
-A CSS toolkit.
+A CSS toolkit built with Sass Modules.
