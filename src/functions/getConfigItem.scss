@@ -2,7 +2,7 @@
 @use 'sass:map';
 
 // A function to retrieve an item from the config map.
-@function getConfig($item) {
+@function getconfigitem($item) {
   // attempt to fetch the passed item from the config
   $config: map.get(config.$config, $item);
 
