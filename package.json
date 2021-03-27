@@ -9,6 +9,8 @@
     "ui"
   ],
   "scripts": {
+    "lint": "npx stylelint \"**/*.scss\"",
+    "lint:fix": "npx stylelint \"**/*.scss\" --fix",
     "dev": "sass ./dev/style.scss ./dev/style.css --watch"
   },
   "repository": {
@@ -22,5 +24,9 @@
   },
   "dependencies": {
     "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-config-sass-guidelines": "^8.0.0"
   }
 }
