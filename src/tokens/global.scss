@@ -1,2 +1,25 @@
-// Base color variables
-$dark-gray: #333 !default;
+/*
+  Colors
+*/
+
+// black & white
+$black: #111 !default;
+$white: #fdfdfd !default;
+
+// gray
+$lightest-gray: hsl(0, 0%, 90%) !default; // #e6e6e6
+$light-gray: hsl(0, 0%, 75%) !default; // #bfbfbf
+$gray: hsl(0, 0%, 50%) !default; // #808080
+$dark-gray: hsl(0, 0%, 25%) !default; // #404040
+$darkest-gray: hsl(0, 0%, 10%) !default; // #1a1a1a
+
+// default color map
+$default-colors: (
+  'black': $black,
+  'white': $white,
+  'gray': $gray,
+  'light-gray': $light-gray,
+  'lightest-gray': $lightest-gray,
+  'dark-gray': $dark-gray,
+  'darkest-gray': $darkest-gray,
+);
