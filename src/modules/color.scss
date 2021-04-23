@@ -1,0 +1,24 @@
+@use "sass:map";
+@use '../tokens/global';
+@use '../functions/getConfigItem' as *;
+
+$color-config: getConfigItem('colors');
+
+// loop through the colors map, and create utilities for each one
+@if ($color-config) {
+  @if (map.get($color-config, 'text-color-utilities')) {
+    @each $name, $color in global.$default-colors {
+      .text-#{$name} {
+        background-color: $color;
+      }
+    }
+  }
+
+  @if (map.get($color-config, 'bg-color-utilities')) {
+    @each $name, $color in global.$default-colors {
+      .bg-#{$name} {
+        background-color: $color;
+      }
+    }
+  }
+}
