@@ -1,7 +1,7 @@
 {
   "name": "hazelcss",
   "version": "0.0.0",
-  "description": "A CSS toolkit.",
+  "description": "A CSS toolkit and framework built with Sass Modules.",
   "keywords": [
     "scss",
     "utility",

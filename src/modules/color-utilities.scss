@@ -1,8 +1,0 @@
-@use '../tokens/global';
-
-// loop through the colors map, and create utilities for each one
-@each $name, $color in global.$default-colors {
-  .bg-#{$name} {
-    background-color: $color;
-  }
-}
